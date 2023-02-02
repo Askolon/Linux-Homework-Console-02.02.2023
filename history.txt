@@ -1,0 +1,29 @@
+   0 cd
+   1 ls
+   2 cd ..
+   3 ls
+   4 cd home
+   5 mkdir animals
+   6 ls
+   7 cd animals
+   8 mkdir dogs && mkdir cats && mkdir fish
+   9 ls
+  10 touch dogs/pluto && touch cats/garfield && touch fish/nemo 
+  11 tree
+  12 cd
+  13 cd ..
+  14 cd temp/
+  15 ls
+  16 cd tmp/
+  17 touch adam
+  18 mkdir /home/humans
+  19 cp /tmp/adam /home/humans
+  20 touch /tmp/evA
+  21 mv /tmp/evA /opt/eve
+  22 mv /opt/eve /home/humans/
+  23 cd
+  24 cd ..
+  25 cd home/humans
+  26 ls
+  27 history
+  28 history > history.txt
